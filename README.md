@@ -16,19 +16,25 @@ Spending Behavior: Analyzes transaction amounts associated with each card type t
 
 
 Questions from the Client that We Need to Answer
-What is the total number of transactions for each card type (debit, PayPal, credit)?
-What is the average transaction amount for each card type?
-How is the distribution of transaction amounts for each card type?
-What are the average transaction amounts for different categories of purchases (e.g., groceries, entertainment, travel) for each card type?
-Is there a significant difference in spending behavior (e.g., average transaction amount, frequency) between users of different card types?
-What are the most common types of purchases made with each card type?
-Are there any significant correlations between transaction amounts and the type of card used?
-Which card type do customers prefer for high-value transactions?
-How does the choice of card type influence the likelihood of repeat transactions?
-Which card type is most popular among different demographic regions?
+1.What is the total number of transactions for each card type (debit, PayPal, credit)?
+2.What is the total amount for highest category?
+3.How is the distribution of transaction amounts for each card type?
+4.What is the total profit  amounts for whole analysis?
+5.Is there a significant difference in spending behavior in regions ?
+6.What are the most common types of purchases made with each card type?
+7.Are there any significant correlations between transaction amounts and the type of card used?
+8.Which card type do customers prefer for high-value transactions?
 
+Answer -  so some answer i got from power bi directly and some i got from python 
+1.Debit - 8131 all in dollars , paypal - 21270 ,  credit  - 51174
+2.Electronics- 7319
+3.debit card for beauty and clothing ,  paypal for home appliances and credit for majority products
+4.24k total profit
+5.asia chooses both credit and debit , most europe chooses paypal and north america region choose credit card the most
+6.electronics
+7.higher volume product uses of credit card is most lower then it maybe paypal or simple debit 
+8.credit card
 
-
-
-
-
+conclusion-
+Different region choose different payment method , credit card uses is most in north america and asia , electroncs and clothing is the most common product categories people like to purchase.  
+so if a company want to grow more then they should give some good discounts on credit cards cause people uses credit cards more than regular debit card . and they should focus more on electroncis .
